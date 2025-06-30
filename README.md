@@ -105,3 +105,5 @@ python 100_days_of_python.py
 - Everyone else who’s learning with me!
 
 ---
+
+> ⚠️ **Disclaimer:** Executable code (e.g., `print()` statements or examples) has been commented out to prevent conflicts when running the full script. You can uncomment them as needed to test individual sections.

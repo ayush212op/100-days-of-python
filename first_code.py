@@ -50,7 +50,7 @@ check the type here:
 # print("the type of", dict, "is",type(dict))
 
 """
-assignment operator
+operators
 """
 # print(15+6)
 # print(15-6)
@@ -469,5 +469,142 @@ all the values within the given string
 are printable, if not, then return False.
 """
 
-str1 = "We wish you a Merry Christmas"
-print(str1.isprintable())
+# str1 = "We wish you a Merry Christmas"
+# print(str1.isprintable())
+
+'''If not printable'''
+# str1 = "We wish you a Merry Christmas\n"
+# print(str1.isprintable())
+
+""" 
+isspace():
+The isspace() method returns True only and 
+only if the string contains white spaces, else returns Faise.
+"""
+
+'''using spacbar'''
+# str1 = "       "
+# print(str1.isspace())
+
+'''using tab'''
+# str2 = "        "
+# print(str2.isspace())
+
+""" 
+istitle():
+The istitile returns True only if the 
+first letter of each word of the string 
+is capitalized, else it returns False
+"""
+
+# str1 = "World Health Organization"
+# print(str1.istitle())
+
+'''If not'''
+# str2 = "To kill the Mocking Bird"
+# print(str2.istitle())
+
+"""
+isupper():
+
+The isupper() method returns True if 
+all the characters in the string are 
+upper case, else it returns False
+"""
+
+# str1 = "WORLD HEALTH ORGANIZATION"
+# print(str1.isupper())
+
+"""
+startswith():
+
+The endswith() method checks if the 
+string starts with a given value. 
+If yes then return True, else return False
+"""
+
+# str1 = "Python is a interpreted language"
+# print(str1.startswith("Python"))
+
+""" 
+swapcase():
+
+The swapcase() method changes the character
+casing of the string. Upper case are converted 
+to lower case and lower case to upper case.
+"""
+
+# str1 = "Python is a interpreted language"
+# print(str1.swapcase())
+
+""" 
+title():
+The title() method capitalizes each letter 
+of the word within the string
+"""
+
+# str1 = "his manthan and he is a honest man."
+# print(str1.title())
+
+
+
+
+
+"""if-else Statements:
+Sometimes the programmer needs to 
+check the evaluation of certain 
+expression(s), whether the expression(s) 
+evaluate to True or False. If the 
+expression evaluates to False, then 
+the program execution follows a different 
+path than it would have if the expression 
+had evaluated to True.
+
+
+Based on this, the conditional statements 
+are further classified into following types:
+
+if-else
+if-else-elit
+nested if-else-elif.
+"""
+
+# a = int(input("Enter you age: "))
+# print("Your age is",a)
+# if(a>18):
+#     print("you can drive")
+# else:
+#     print("You can't drive")
+    
+'''
+Conditional operators: >, <, >=, <=, ==, !=
+'''
+
+# print (a > 18)
+# print (a <= 18)
+# print (a == 18)
+# print (a != 18)
+
+""" 
+An if......else statement evaluates like this:
+
+
+if the expression evaluates True:
+
+Execute the block of code inside it statement.
+After execution return to the code out of the 
+if.....else block.
+
+If the expression evaluates False:
+Execute the block of code inside else statement.
+After execution return to the code out of the 
+if...else block.
+"""
+
+# applePrice = 210
+# budget = 200
+# if (applePrice <= budget):
+#     print("Ayush, add 1 kg Apples to the cart.")
+
+# else:
+#     print("Ayush, do not add Apples to the cart.")
