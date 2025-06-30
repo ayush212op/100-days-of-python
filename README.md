@@ -8,7 +8,7 @@
 
 ## 🚧 Status: **In Progress**
 
-📌 I'm currently on **Day 13** of my Python journey.  
+📌 I'm currently on **Day 15** of my Python journey.  
 This project is actively growing with new concepts and examples added regularly.  
 More to come as I progress!
 
@@ -30,15 +30,15 @@ Instead of splitting each day into multiple files, I've written everything in on
 | 02  | Variables & Data Types in Python                                | ✅ Done |
 | 03  | Typecasting & Input from User                                   | ✅ Done |
 | 04  | Operators in Python                                             | ✅ Done |
-| 05  | If-Else Conditional Statements                                   | ✅ Done |
-| 06  | Match Case Statements (Python 3.10+)                             | ✅ Done |
+| 05  | If-Else Conditional Statements                                  | ✅ Done |
+| 06  | Match Case Statements (Python 3.10+)                            | ✅ Done |
 | 07  | Loops in Python – While & For Loop                              | ✅ Done |
 | 08  | Break & Continue Statements                                     | ✅ Done |
 | 09  | Functions in Python                                             | ✅ Done |
 | 10  | Recursion in Python                                             | ✅ Done |
 | 11  | Introduction to Strings                                         | ✅ Done |
 | 12  | String Slicing & Operations                                     | ✅ Done |
-| 13  | String Methods in Python                                        | 🎯 In Progress |
+| 13  | String Methods in Python                                        | ✅ Done |
 | 14  | Lists & List Methods                                            | ⏳ Pending |
 | 15  | Tuples & Tuple Methods                                          | ⏳ Pending |
 | 16  | Dictionaries in Python                                          | ⏳ Pending |
@@ -47,8 +47,8 @@ Instead of splitting each day into multiple files, I've written everything in on
 | 19  | Constructors & __init__ in OOP                                  | ⏳ Pending |
 | 20  | Class Methods, Static Methods, & Instance Variables             | ⏳ Pending |
 | 21  | Inheritance in Python                                           | ⏳ Pending |
-| 22  | Multiple Inheritance                                             | ⏳ Pending |
-| 23  | Multilevel Inheritance                                           | ⏳ Pending |
+| 22  | Multiple Inheritance                                            | ⏳ Pending |
+| 23  | Multilevel Inheritance                                          | ⏳ Pending |
 | 24  | Operator Overloading                                            | ⏳ Pending |
 | 25  | Super Keyword                                                   | ⏳ Pending |
 | 26  | Try-Except Exception Handling                                   | ⏳ Pending |
@@ -71,17 +71,17 @@ Instead of splitting each day into multiple files, I've written everything in on
 | 43  | Regular Expressions (re module)                                 | ⏳ Pending |
 | 44  | JSON in Python                                                  | ⏳ Pending |
 | 45  | APIs and Data Integration                                       | ⏳ Pending |
-| 46–60 | Projects (To be filled based on course flow)                 | ⏳ Pending |
-| 61–100 | Final Projects & Real-World Applications                    | ⏳ Pending |
+| 46–60 | Projects (To be filled based on course flow)                  | ⏳ Pending |
+| 61–100 | Final Projects & Real-World Applications                     | ⏳ Pending |
 
 ➡️ All code is inside **one single Python file**: `first_code.py`
 
 ---
 ## 📊 Progress Tracker
 
-![Progress](https://img.shields.io/badge/Progress-13%25-yellow)
+![Progress](https://img.shields.io/badge/Progress-14%25-yellow)
 
-> Currently at **Day 13**.  
+> Currently at **Day 14**.  
 Updated frequently as I move forward.
 
 ---
