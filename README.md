@@ -91,7 +91,7 @@ Updated frequently as I move forward.
 Simply open the file and run it with:
 
 ```bash
-python 100_days_of_python.py
+python.py
 ```
 
 > Make sure Python 3.10+ is installed.
