@@ -24,8 +24,6 @@ Instead of splitting each day into multiple files, I've written everything in on
 
 ## 📚 Table of Contents
 
-## 📚 Table of Contents
-
 | Day | Topic                                                           | Status |
 |-----|------------------------------------------------------------------|--------|
 | 01  | Print, Comments & Escape Sequences                              | ✅ Done |
