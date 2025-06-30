@@ -1,6 +1,6 @@
 # 🐍 100 Days of Python – The Complete Journey in One File
 
-![Python Banner](https://www.python.org/static/community_logos/python-logo.png)
+![Python Banner](https://1000logos.net/wp-content/uploads/2020/09/Python-Logo-history.png)
 
 > A practical, hands-on Python learning experience created with ❤️ by **Ayush Pansare**
 
