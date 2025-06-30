@@ -38,7 +38,7 @@ Instead of splitting each day into multiple files, I've written everything in on
 ---
 ## 📊 Progress Tracker
 
-![Progress](https://progress-bar.dev/13/?title=Days%20Completed)
+![Progress](https://img.shields.io/badge/Progress-13%25-yellow)
 
 > Currently at **Day 13**.  
 Updated frequently as I move forward.
