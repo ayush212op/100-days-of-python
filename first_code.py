@@ -689,3 +689,114 @@ code on time packages
 # else:
 #     print("Good night, SirJi")
 
+"""
+Match Case Statements:
+To implement switch-case like characteristics very similar 
+to if-else functionality, we use a match case in python. 
+If you are coming from a C, C++ or Java like language, 
+you must have heard of switch-case statements. If this 
+is your first language, dont worry as I will tell you 
+everything you need to know about match case statements 
+in this video!
+
+A match statement will compare a given variable's value 
+to different shapes, also referred to as the pattern. 
+The main idea is to keep on comparing the variable with 
+all the present patterns until it fits into one.
+
+The match case consists of three main entities :
+
+The match keyword
+One or more case clauses
+Expression for each case
+
+The case clause consists of a pattern to be matched 
+to the variable, a condition to be evaluated if the 
+pattern matches, and a set of statements to be 
+executed if the pattern matches.
+"""
+
+# weekdays = int(input("Enter the day: "))
+
+# match(weekdays):
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")
+#     case 3:
+#         print("Wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Invaild input!!!")
+ 
+
+   
+"""
+Introduction to Loops:
+Sometimes a programmer wants to execute a group of 
+statements a certain number of times. This can be 
+done using loops. Based on this loops are further 
+classified into following main types;
+
+for loop
+while loop
+"""
+
+"""
+The for Loop:
+
+for loops can iterate over a sequence of iterable 
+objects in python. Iterating over a sequence is 
+nothing but iterating over strings, lists, 
+tuples, sets and dictionaries.
+"""
+
+'''Loop strings'''
+# name = "Ayush"
+# for i in name:
+#     print(i)
+
+'''Loop list'''
+# names = ["Ayush" , "Manthan" , "Tanish" , "Shlok"]
+# for x in names:
+#     print(x)
+
+'''
+Loop in range
+
+range():
+What if we do not want to iterate over a sequence? 
+What if we want to use for loop for a specific number 
+of times?
+
+Here, we can use the range() function.
+'''
+
+# for r in range(10):
+#     print(r)
+
+# for r in range(4,10):
+#     print(r)
+
+# for r in range(4,10,2):
+    # print(r)
+
+"""
+Python while Loop:
+
+As the name suggests, while loops execute statements while 
+the condition is True. As soon as the condition becomes False,
+the interpreter comes out of the while loop.
+"""
+
+i = 0
+while(i < 20):
+    print(i)
+    i = i + 1
