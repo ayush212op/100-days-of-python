@@ -608,3 +608,84 @@ if...else block.
 
 # else:
 #     print("Ayush, do not add Apples to the cart.")
+""" 
+elif Statements:
+
+Sometimes, the programmer may want to evaluate 
+more than one condition, this can be done using 
+an elif statement.
+"""
+
+"""
+Working of an elif statement:
+Execute the block of code inside if statement 
+if the initial expression evaluates to True. 
+After execution return to the code out of the 
+if block.
+
+Execute the block of code inside the first elif 
+statement if the expression inside it evaluates 
+True. After execution return to the code out of 
+the if block.
+
+Execute the block of code inside the second elif 
+statement if the expression inside it evaluates 
+True. After execution return to the code out of 
+the if block.
+.
+.
+.
+Execute the block of code inside the nth elif 
+statement if the expression inside it evaluates 
+True. After execution return to the code out of 
+the if block.
+
+Execute the block of code inside else statement 
+if none of the expression evaluates to True. 
+After execution return to the code out of 
+the if block.
+"""
+
+# num = int(input("Enter a number: "))
+# if (num < 0):
+#     print("Number is negative.")
+# elif (num == 0):
+#     print("Number is Zero.")
+# else:
+#     print("Number is positive.")
+
+""" 
+Nested if statements:
+We can use if, if-else, elif statements inside 
+other if statements as well.
+"""
+
+# num = int(input("Enter the number: "))
+# if (num < 0):
+#     print("Number is negative.")
+# elif (num > 0):
+#     if (num <= 10):
+#         print("Number is between 1-10")
+#     elif (num > 10 and num <= 20):
+#         print("Number is between 11-20")
+#     else:
+#         print("Number is greater than 20")
+# else:
+#     print("Number is zero")
+
+""" 
+code on time packages
+"""
+# import time
+# time_now = int(time.strftime('%H'))
+# if(time_now > 6 and time_now < 12): 
+#     print("Good morning, SirJi")
+    
+# elif(time_now > 12 and time_now < 17):
+#     print("Good afternoon, SirJi")
+
+# elif(time_now > 17 and time_now < 22):
+#     print("Good evening")
+# else:
+#     print("Good night, SirJi")
+
