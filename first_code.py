@@ -885,10 +885,10 @@ The continue statement skips the rest of the
 loop statements and causes the next iteration to occur.
 """
 
-for i in [2,3,4,6,8,0]:
-    if (i%2!=0):
-        continue
-    print(i)
+# for i in [2,3,4,6,8,0]:
+#     if (i%2!=0):
+#         continue
+#     print(i)
 
 """ 
 Python Functions:
@@ -937,26 +937,26 @@ code within the function should be indented.
 
 """
 Calling a function:
-We call a function by giving the function name, followed by parameters (if any) in the parenthesis.
+We call a function by giving the function name, followed 
+by parameters (if any) in the parenthesis.
 """
 
-def calculateGmean(a, b):
-  mean = (a*b)/(a+b)
-  print(mean)
+# def calculateGmean(a, b):
+#   mean = (a*b)/(a+b)
+#   print(mean)
 
-def isGreater(a, b):
-  if(a>b):
-    print("First number is greater")
-  else:
-    print("Second number is greater or equal")
+# def isGreater(a, b):
+#   if(a>b):
+#     print("First number is greater")
+#   else:
+#     print("Second number is greater or equal")
 
-a = 9
-b = 8
-isGreater(a, b)
-calculateGmean(a, b)
+# a = 9
+# b = 8
+# isGreater(a, b)
+# calculateGmean(a, b)
 
-c = 8
-d = 74
-isGreater(c, d)
-calculateGmean(c, d)
-
+# c = 8
+# d = 74
+# isGreater(c, d)
+# calculateGmean(c, d)
