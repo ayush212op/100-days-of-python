@@ -198,10 +198,10 @@ Example:
 Multiline strings
 """
 
-a = """Lorem ipsum dolor sit amet, 
-consectetur adiptactog elit, sed 
-do eiusmod tempor incididunt ut 
-labore et dolore magna aliqua."""
+# a = """Lorem ipsum dolor sit amet, 
+# consectetur adiptactog elit, sed 
+# do eiusmod tempor incididunt ut 
+# labore et dolore magna aliqua."""
 # print(a)
 
 """
