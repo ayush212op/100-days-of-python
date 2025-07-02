@@ -796,7 +796,167 @@ the condition is True. As soon as the condition becomes False,
 the interpreter comes out of the while loop.
 """
 
-i = 0
-while(i < 20):
+# i = 0
+# while(i < 20):
+#     print(i)
+#     i = i + 1
+
+"""
+Else with While Loop:
+
+We can even use the else statement with the while loop. 
+Essentially what the else statement does is that 
+as soon as the while loop condition becomes False, 
+the interpreter comes out of the while loop and 
+the else statement is executed.
+"""
+# x = 5
+# while (x > 0):
+#     print(x)
+#     x = x - 1
+# else:
+#     print('counter is 0')
+
+""" 
+Do-While loop in python:
+
+do..while is a loop in which a set of instructions will 
+execute at least once (irrespective of the condition) and 
+then the repetition of loop's body will depend on the 
+condition passed at the end of the while loop. 
+It is also known as an exit-controlled loop.
+
+How to emulate do while loop in python?
+To create a do while loop in Python, you 
+need to modify the while loop a bit in order 
+to get similar behavior to a do while loop.
+
+The most common technique to emulate a do-while
+loop in Python is to use an infinite while loop
+with a break statement wrapped in an if statement
+that checks a given condition and breaks the 
+iteration if that condition becomes true:
+"""
+
+# while True:
+#     str = input("Enter a specific string(type 'H' to end)")
+#     print(str)
+#     if str == "H":
+#         break
+
+# while True:
+#   number = int(input("Enter a positive number: "))
+#   print(number)
+#   if not number > 0:
+#     break
+
+'''infinite loop to print number'''
+# i = 0
+# while True:
+#     print(i)
+#     i = i + 1
+
+'''Same program emulated to do while loop'''
+# i = 0
+# while True:
+#     print(i)
+#     i = i +1
+#     if(i%100 == 0):
+#         break
+
+"""
+break statement:
+
+The break statement enables a program to skip over a part 
+of the code. A break statement terminates the very loop it lies within.
+"""
+
+# for i in range(1,101,1):
+#     print(i ,end=" ")
+#     if(i==50):
+#         break
+#     else:
+#         print("Mississippi")
+# print("Thank you")
+
+"""
+Continue Statement:
+The continue statement skips the rest of the 
+loop statements and causes the next iteration to occur.
+"""
+
+for i in [2,3,4,6,8,0]:
+    if (i%2!=0):
+        continue
     print(i)
-    i = i + 1
+
+""" 
+Python Functions:
+
+A function is a block of code that performs a specific 
+task whenever it is called. In bigger programs, where 
+we have large amounts of code, it is advisable to create 
+or use existing functions that make the program flow 
+organized and neat.
+
+There are two types of functions:
+
+Built-in functions
+User-defined functions
+
+"""
+
+"""
+Built-in functions:
+
+These functions are defined and pre-coded in python. 
+Some examples of built-in functions are as follows:
+
+min(), max(), len(), sum(), type(), range(), dict(), 
+list(), tuple(), set(), print(), etc.
+
+User-defined functions:
+We can create functions to perform specific tasks as 
+per our needs. Such functions are called user-defined 
+functions.
+
+Syntax:
+def function_name(parameters):
+  pass
+  # Code and Statements
+  
+Create a function using the def keyword, followed 
+by a function name, followed by a paranthesis (()) and 
+a colon(:).
+
+Any parameters and arguments should be placed within 
+the parentheses.Rules to naming function are similar 
+to that of naming variables. Any statements and other 
+code within the function should be indented.
+"""
+
+"""
+Calling a function:
+We call a function by giving the function name, followed by parameters (if any) in the parenthesis.
+"""
+
+def calculateGmean(a, b):
+  mean = (a*b)/(a+b)
+  print(mean)
+
+def isGreater(a, b):
+  if(a>b):
+    print("First number is greater")
+  else:
+    print("Second number is greater or equal")
+
+a = 9
+b = 8
+isGreater(a, b)
+calculateGmean(a, b)
+
+c = 8
+d = 74
+isGreater(c, d)
+calculateGmean(c, d)
+

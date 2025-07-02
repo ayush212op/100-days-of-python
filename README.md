@@ -8,7 +8,7 @@
 
 ## 🚧 Status: **In Progress**
 
-📌 I'm currently on **Day 18** of my Python journey.  
+📌 I'm currently on **Day 21** of my Python journey.  
 This project is actively growing with new concepts and examples added regularly.  
 More to come as I progress!
 
@@ -25,9 +25,9 @@ Instead of splitting each day into multiple files, I've written everything in on
 
 ## 📊 Progress Tracker
 
-![Progress](https://img.shields.io/badge/Progress-18%25-yellow)
+![Progress](https://img.shields.io/badge/Progress-20%25-yellow)
 
-> Currently at **Day 18**.  
+> Currently at **Day 21**.  
 Updated frequently as I move forward.
 
 ---
