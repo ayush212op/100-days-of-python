@@ -9,12 +9,12 @@
 
 ---
 
-## 📈 Status: 🚧 In Progress – Day 21
+## 📈 Status: 🚧 In Progress – Day 26
 
 This project is actively evolving with fresh content added regularly.  
 Stay tuned for updates as I move forward in my Python journey.
 
-![Progress](https://img.shields.io/badge/Progress-20%25-yellow)
+![Completed](https://img.shields.io/badge/Progress-25%25-yellow)
 
 ---
 
