@@ -14,7 +14,7 @@
 This project is actively evolving with fresh content added regularly.  
 Stay tuned for updates as I move forward in my Python journey.
 
-![Completed](https://img.shields.io/badge/Progress-25%25-yellow)
+![Completed](https://img.shields.io/badge/Completed-25%25-yellow)
 
 ---
 
