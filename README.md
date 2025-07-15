@@ -1,5 +1,5 @@
 
-# 🐍✨ 100 Days of Python – The *Ultimate* Journey in five File
+# 🐍✨ 100 Days of Python – The *Ultimate* Journey in Five File
 
 ![Python Banner](https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png)
 
