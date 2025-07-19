@@ -421,16 +421,135 @@ Note: jump Index is optional. We will see this in given examples.
 # print(animals[-4:])
 
 '''Example: printing all elements from start to a given index'''
-animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[:6])      #using positive indexes
-print(animals[:-3])     #using negative indexes
+# animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+# print(animals[:6])
+# print(animals[:-3])
 
 
 '''Example: Print alternate values'''
-animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[::2])     #using positive indexes
-print(animals[-8:-1:2]) #using negative indexes
+# animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+# print(animals[::2])
+# print(animals[-8:-1:2])
 
 '''Example: printing every 3rd consecutive withing given range'''
-animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[1:8:3])
+# animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+# print(animals[1:8:3])
+
+""" 
+Manipulating Tuples;
+
+Tuples are immutable, hence if you want to add, remove or 
+change tuple items, then first you must convert the tuple to a 
+list. Then perform operation on that list and convert it back 
+to tuple.
+"""
+
+# countries = ("India", "Russia", "England", "Itay", "Germany")
+# con_list = list(countries)
+# con_list.append("Japan")
+# con_list.remove("Russia")
+# con_list.insert(1, "USA")
+
+# new_con = tuple(con_list)
+# print(new_con)
+
+# print(new_con.index("Japan"))
+# print(new_con.count("Japan"))
+
+'''concatenate two tuples without converting them to list.'''
+# countries = ("Pakistan", "Afghanistan", "Bangladesh", "ShriLanka")
+# countries2 = ("Vietnam", "India", "China")
+# southEastAsia = countries + countries2
+# print(southEastAsia)
+
+"""
+Tuple methods:
+
+As tuple is immutable type of collection of elements it have 
+limited built in methods.They are explained below
+"""
+'''count() Method: The count() method of Tuple returns the 
+number of times the given element appears in the tuple.'''
+
+# tup = (2, 3, 4, 6, 5, 6, 8, 8, 7, 8, 9, 0)
+# print(tup.count(8))
+
+'''index() method: The Index() method returns the first 
+occurrence of the given element from the tuple.'''
+
+# tup = (2, 3, 4, 6, 5, 6, 8, 8, 7, 8, 9, 0)
+# print(tup.index(5))
+
+# tup = (2, 3, 4, 6, 5, 6, 8, 8, 7, 8, 9, 0)
+# print(tup.index(8, 6, 8))
+
+'''len() method: The len() method returns the length of tuple'''
+
+# tup = (2, 3, 4, 6, 5, 6, 8, 8, 7, 8, 9, 0)
+# print(len(tup))
+
+"""KBC EXCERCISE"""
+'''kbc_question = [{"Question": "What is the Capital of India?",
+                 "Options": ["A. Mumbai", "B. Chennai", "C. New Delhi", "D. Kolkata"],
+                 "Answer" : "C"},
+                {"Question": "Which animal is name as \"Ship of the Dessert\"?",
+                 "Options": ["A. Horse", "B. Camel", "C. Elephant", "D. Donkey"],
+                 "Answer" : "B"},
+                {"Question": "Which festival is known as the \"Festival Of Lights\"?",
+                 "Options": ["A. Holi", "B. Diwali", "C. Eid", "D. Baisakhi"],
+                 "Answer" : "B"},
+                {"Question": "What is 5 + 7?",
+                 "Options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+                 "Answer" : "B"},
+                {"Question": "Which planet is known as the Red Planet?",
+                 "Options": ["A. Earth", "B. Jupiter", "C. Mars", "D. Venus"],
+                 "Answer" : "C"},
+                {"Question": "Who wrote the Indian National Anthem?",
+                 "Options": ["A. Mahatma Gandhi", "B. Rabindranath Tagore", "C. Jawarharlal Nehru", "D. Subhas Chandra Bose"],
+                 "Answer" : "B"},
+                {"Question": "What is the smallest Prime number?",
+                 "Options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+                 "Answer" : "C"},
+                {"Question": "Which is the longest river in India?",
+                 "Options": ["A. Ganga", "B. Yamuna", "C. Godavari", "D. Brahmaputra"],
+                 "Answer" : "A"},
+                {"Question": "Who was the first President of India",
+                 "Options": ["A. Sardar Patel", "B. Rajendra Prasad", "C. Radhakrishnan", "D. Zakir Hussain"],
+                 "Answer" : "B"},
+                {"Question": "Which organ purifies our blood",
+                 "Options": ["A. Heart", "B. Liver", "C. Lungs", "D. Kindey"],
+                 "Answer" : "D"},
+                {"Question": "Who is known as the father of the Indian Constitution?",
+                 "Options": ["A. B.R. Ambedkar", "B. Jawarharlal Nehru", "C. Mahatma Gandhi", "D. Rajendra Prasad"],
+                 "Answer" : "A"},
+                {"Question": "Which gas do plants absorb from the atmosphere?",
+                 "Options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
+                 "Answer" : "C"},
+                {"Question": "What is the chemical symbol for gold?",
+                 "Options": ["A. Gd", "B. Au", "C. Ag", "D. Go"],
+                 "Answer" : "B"},
+                {"Question": "In which year did India become a Republic?",
+                 "Options": ["A. 1947", "B. 1948", "C. 1950", "D. 1952"],
+                 "Answer" : "C"},
+                {"Question": "Who is the current Chief Justice of India?",
+                 "Options": ["A. U.U. Lalit", "B. N.V. Ramana", "C. Bhushan Gavai", "D. Ranjan Gogai"],
+                 "Answer" : "C"}
+                ]
+# Actual Game
+print("Welcome to KBC in Python")
+score = 0
+for i,j in enumerate(kbc_question):
+    print("Q", i + 1,":", j["Question"])
+    for p in j["Options"]:
+        print(p)
+    
+    user_input = input("Enter your answer (A/B/C/D):").upper()
+    if user_input == j["Answer"]:
+        print("Correct!!")
+        score += 10000
+    else:
+        print("Wrong!! The correct answer was:", j["Answer"], "\n")
+        break
+
+print("You won Rs." + str(score) + "!!!" )
+print("Thank you for playing KBC")'''
