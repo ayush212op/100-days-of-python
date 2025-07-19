@@ -1,11 +1,11 @@
 
-# 🐍✨ 100 Days of Python – The *Ultimate* Journey in One File
+# 🐍✨ 100 Days of Python – The *Ultimate* Journey in Five File
 
 ![Python Banner](https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png)
 
 > 🔥 A hands-on, no-fluff Python learning experience  
 > ❤️ Created by **Ayush Pansare**  
-> 🧠 One file. One journey. One unstoppable coder.
+> 🧠 One journey. One unstoppable coder.
 
 ---
 
@@ -24,11 +24,11 @@ This is my **complete 100 Days of Python** journey
 packed into **one structured and readable file**.
 
 - ✅ No scattered files or folders  
-- ✅ Scroll-friendly, single file format  
+- ✅ Scroll-friendly, five file format  
 - ✅ From basics to advanced — all in one place
 
 > *"I didn’t want 100 files...  
-I wanted 100 lessons in one epic script."*
+I wanted 100 lessons in five epic scripts."*
 
 ---
 
