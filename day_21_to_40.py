@@ -489,67 +489,97 @@ occurrence of the given element from the tuple.'''
 # print(len(tup))
 
 """KBC EXCERCISE"""
-'''kbc_question = [{"Question": "What is the Capital of India?",
-                 "Options": ["A. Mumbai", "B. Chennai", "C. New Delhi", "D. Kolkata"],
-                 "Answer" : "C"},
-                {"Question": "Which animal is name as \"Ship of the Dessert\"?",
-                 "Options": ["A. Horse", "B. Camel", "C. Elephant", "D. Donkey"],
-                 "Answer" : "B"},
-                {"Question": "Which festival is known as the \"Festival Of Lights\"?",
-                 "Options": ["A. Holi", "B. Diwali", "C. Eid", "D. Baisakhi"],
-                 "Answer" : "B"},
-                {"Question": "What is 5 + 7?",
-                 "Options": ["A. 10", "B. 11", "C. 12", "D. 13"],
-                 "Answer" : "C"},
-                {"Question": "Which planet is known as the Red Planet?",
-                 "Options": ["A. Earth", "B. Jupiter", "C. Mars", "D. Venus"],
-                 "Answer" : "C"},
-                {"Question": "Who wrote the Indian National Anthem?",
-                 "Options": ["A. Mahatma Gandhi", "B. Rabindranath Tagore", "C. Jawarharlal Nehru", "D. Subhas Chandra Bose"],
-                 "Answer" : "B"},
-                {"Question": "What is the smallest Prime number?",
-                 "Options": ["A. 0", "B. 1", "C. 2", "D. 3"],
-                 "Answer" : "C"},
-                {"Question": "Which is the longest river in India?",
-                 "Options": ["A. Ganga", "B. Yamuna", "C. Godavari", "D. Brahmaputra"],
-                 "Answer" : "A"},
-                {"Question": "Who was the first President of India",
-                 "Options": ["A. Sardar Patel", "B. Rajendra Prasad", "C. Radhakrishnan", "D. Zakir Hussain"],
-                 "Answer" : "B"},
-                {"Question": "Which organ purifies our blood",
-                 "Options": ["A. Heart", "B. Liver", "C. Lungs", "D. Kindey"],
-                 "Answer" : "D"},
-                {"Question": "Who is known as the father of the Indian Constitution?",
-                 "Options": ["A. B.R. Ambedkar", "B. Jawarharlal Nehru", "C. Mahatma Gandhi", "D. Rajendra Prasad"],
-                 "Answer" : "A"},
-                {"Question": "Which gas do plants absorb from the atmosphere?",
-                 "Options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
-                 "Answer" : "C"},
-                {"Question": "What is the chemical symbol for gold?",
-                 "Options": ["A. Gd", "B. Au", "C. Ag", "D. Go"],
-                 "Answer" : "B"},
-                {"Question": "In which year did India become a Republic?",
-                 "Options": ["A. 1947", "B. 1948", "C. 1950", "D. 1952"],
-                 "Answer" : "C"},
-                {"Question": "Who is the current Chief Justice of India?",
-                 "Options": ["A. U.U. Lalit", "B. N.V. Ramana", "C. Bhushan Gavai", "D. Ranjan Gogai"],
-                 "Answer" : "C"}
-                ]
-# Actual Game
-print("Welcome to KBC in Python")
+'''kbc_question = [
+    {"Question": "What is the Capital of India?",
+     "Options": ["A. Mumbai", "B. Chennai", "C. New Delhi", "D. Kolkata"],
+     "Answer": "C"},
+
+    {"Question": "Which animal is named as 'Ship of the Desert'?",
+     "Options": ["A. Horse", "B. Camel", "C. Elephant", "D. Donkey"],
+     "Answer": "B"},
+
+    {"Question": "Which festival is known as the 'Festival Of Lights'?",
+     "Options": ["A. Holi", "B. Diwali", "C. Eid", "D. Baisakhi"],
+     "Answer": "B"},
+
+    {"Question": "What is 5 + 7?",
+     "Options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+     "Answer": "C"},
+
+    {"Question": "Which planet is known as the Red Planet?",
+     "Options": ["A. Earth", "B. Jupiter", "C. Mars", "D. Venus"],
+     "Answer": "C"},
+
+    {"Question": "Who wrote the Indian National Anthem?",
+     "Options": ["A. Mahatma Gandhi", "B. Rabindranath Tagore", "C. Jawaharlal Nehru", "D. Subhas Chandra Bose"],
+     "Answer": "B"},
+
+    {"Question": "What is the smallest Prime number?",
+     "Options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+     "Answer": "C"},
+
+    {"Question": "Which is the longest river in India?",
+     "Options": ["A. Ganga", "B. Yamuna", "C. Godavari", "D. Brahmaputra"],
+     "Answer": "A"},
+
+    {"Question": "Who was the first President of India?",
+     "Options": ["A. Sardar Patel", "B. Rajendra Prasad", "C. Radhakrishnan", "D. Zakir Hussain"],
+     "Answer": "B"},
+
+    {"Question": "Which organ purifies our blood?",
+     "Options": ["A. Heart", "B. Liver", "C. Lungs", "D. Kidney"],
+     "Answer": "D"},
+
+    {"Question": "Who is known as the father of the Indian Constitution?",
+     "Options": ["A. B.R. Ambedkar", "B. Jawaharlal Nehru", "C. Mahatma Gandhi", "D. Rajendra Prasad"],
+     "Answer": "A"},
+
+    {"Question": "Which gas do plants absorb from the atmosphere?",
+     "Options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
+     "Answer": "C"},
+
+    {"Question": "What is the chemical symbol for gold?",
+     "Options": ["A. Gd", "B. Au", "C. Ag", "D. Go"],
+     "Answer": "B"},
+
+    {"Question": "In which year did India become a Republic?",
+     "Options": ["A. 1947", "B. 1948", "C. 1950", "D. 1952"],
+     "Answer": "C"},
+
+    {"Question": "Who is the current Chief Justice of India?",
+     "Options": ["A. U.U. Lalit", "B. N.V. Ramana", "C. Bhushan Gavai", "D. Ranjan Gogoi"],
+     "Answer": "C"}
+]
+
+# Prize ladder
+prizes = [
+    1000, 2000, 3000, 5000, 10000,
+    20000, 40000, 80000, 160000, 320000,
+    640000, 1250000, 2500000, 5000000, 10000000
+]
+
+print("🎉 Welcome to KBC in Python 🎉\n")
+
 score = 0
-for i,j in enumerate(kbc_question):
-    print("Q", i + 1,":", j["Question"])
-    for p in j["Options"]:
-        print(p)
-    
-    user_input = input("Enter your answer (A/B/C/D):").upper()
-    if user_input == j["Answer"]:
-        print("Correct!!")
-        score += 10000
+
+for i, question in enumerate(kbc_question):
+    print("Q", i + 1, ":", question["Question"])
+    for opt in question["Options"]:
+        print(opt)
+
+    user_input = input("Enter your answer (A/B/C/D): ").strip().upper()
+
+    if user_input == question["Answer"]:
+        score = prizes[i]
+        print("✅ Correct! You have won ₹" + str(score) + "\n")
     else:
-        print("Wrong!! The correct answer was:", j["Answer"], "\n")
+        print("❌ Wrong! The correct answer was:", question["Answer"])
+        print("💰 You take home ₹" + str(score))
         break
 
-print("You won Rs." + str(score) + "!!!" )
-print("Thank you for playing KBC")'''
+else:
+    print("🎊 Congratulations! You answered all questions correctly!")
+
+print("\n🏆 Total amount won: ₹" + str(score))
+print("🙏 Thank you for playing KBC!\n")
+'''
