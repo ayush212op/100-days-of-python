@@ -500,7 +500,7 @@ occurrence of the given element from the tuple.'''
                  "Answer" : "B"},
                 {"Question": "What is 5 + 7?",
                  "Options": ["A. 10", "B. 11", "C. 12", "D. 13"],
-                 "Answer" : "B"},
+                 "Answer" : "C"},
                 {"Question": "Which planet is known as the Red Planet?",
                  "Options": ["A. Earth", "B. Jupiter", "C. Mars", "D. Venus"],
                  "Answer" : "C"},
