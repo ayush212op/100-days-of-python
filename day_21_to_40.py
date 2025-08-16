@@ -718,3 +718,248 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 """
+
+"""
+Recursion in python:
+
+Recursion is the process of defining something in terms of itself.
+
+Python Recursive Function:
+
+In Python, we know that a function can call other functions. 
+It is even possible for the function to call itself. These 
+types of construct are termed as recursive functions."""
+
+# def fact(n):
+#     if(n <= 1):
+#         return 1
+#     else:
+#         return n * fact(n - 1)
+
+# fact_reqm_input = int(input("enter the number you need factorial for: "))
+# print("factorial for the number",fact_reqm_input ,"is:", fact(fact_reqm_input))
+
+# def fibo(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibo(n - 1) + fibo(n - 2)
+
+# fibo_reqm_input = int(input("Enter how many Fibonacci numbers you want: "))
+# print("Fibonacci series till", fibo_reqm_input, "is:")
+
+# for i in range(fibo_reqm_input):
+#     print(fibo(i), end=" ")
+
+"""
+Python Sets
+Sets are unordered collection of data items. They store multiple items 
+in a single variable. Set items are separated by commas and enclosed within
+curly brackets {}. Sets are unchangeable, meaning you cannot change items of 
+the set once created. Sets do not contain duplicate items.
+"""
+
+# info = {"Carla", 19, False, 5.9, 19}
+# print(info)
+
+# a = set()
+# print(type(a))
+
+"""
+Accessing set items:
+
+Using a For loop:
+You can access items of set using a for loop.
+"""
+
+# for i in info:
+#     print(i)
+
+"""
+Joining Sets:
+
+Sets in python more or less work in the same way as sets in mathematics. 
+We can perform operations like union and intersection on the sets just like in mathematics."""
+
+"""
+I. union() and update():
+
+The union() and update() methods prints all items that are present in the two sets. 
+The union() method returns a new set whereas update() method adds item into the 
+existing set from another set."""
+
+# s = {1, 2 , 3 , 4 , 5}
+# s2 = {4, 5, 6, 7}
+# print(s.union(s2))
+# s.update(s2)
+# print(s)
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities3 = cities.union(cities2)
+# print(cities3)
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities.update(cities2)
+# print(cities)
+
+"""
+II. intersection and intersection_update():
+
+The intersection() and intersection_update() methods prints only items that are similar 
+to both the sets. The intersection() method returns a new set whereas intersection_update() 
+method updates into the existing set from another set."""
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities3 = cities.intersection(cities2)
+# print(cities3)
+
+# a = {1,2,3,4,5,5,6,7}
+# b = {6,7,8,9,10,11,12}
+# c = a.intersection(b)
+# print(c)
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities.intersection_update(cities2)
+# print(cities)
+
+"""
+symmetric_difference and symmetric_difference_update():
+
+The symmetric_difference() and symmetric_difference_update() methods prints only items that are not 
+similar to both the sets. The symmetric_difference() method returns a new set whereas 
+symmetric_difference_update() method updates into the existing set from another set.
+"""
+
+# country = {"india", "japan", "south africa", "pakisthan"}
+# country2 = {"pakistan", "USA", "UK"}
+# country3 = country.symmetric_difference(country2)
+# print(country3)
+
+# country = {"india", "japan", "south africa", "pakisthan"}
+# country2 = {"pakistan", "USA", "UK"}
+# country.symmetric_difference_update(country2)
+# print(country)
+
+"""
+difference() and difference_update():
+
+The difference() and difference_update() methods prints only items that are only present in the original 
+set and not in both the sets. The difference() method returns a new set whereas difference_update() 
+method updates into the existing set from another set.
+"""
+
+# colors = {"blue","green","yellow","purple"}
+# colors2 = {"blue","yellow","black"}
+# colors3 = colors.difference(colors2)
+# print(colors3)
+
+
+# colors = {"blue","green","yellow","purple"}
+# colors2 = {"blue","yellow","black"}
+# colors.difference_update(colors2)
+# print(colors)
+
+"""
+Set Methods:
+
+There are several in-built methods used for the manipulation of set.They are explained 
+below
+"""
+
+"""
+isdisjoint():
+
+The isdisjoint() method checks if items of given set are present in another set. This 
+method returns False if items are present, else it returns True.
+"""
+
+# weekdays = {"monday","tuesday","wednesday","thrusday","friday"}
+# weekends = {"saturday","sunday"}
+# print(weekdays.isdisjoint(weekends))
+
+"""
+issuperset():
+
+The issuperset() method checks if all the items of a particular set are present in the 
+original set. It returns True if all the items are present, else it returns False.
+"""
+
+# weekdays = {"monday","tuesday","wednesday","thursday","friday"}
+# are_they = set(input("want to verify if it's a weekday(Enter data with , without space):").split(","))
+# print(weekdays.issuperset(are_they))
+
+"""
+issubset():
+The issubset() method checks if all the items of the original set are present in the 
+particular set. It returns True if all the items are present, else it returns False.
+"""
+
+# weekdays = {"monday", "tuesday", "wednesday", "thursday", "friday"}
+# office_days = {"monday", "wednesday", "friday"}
+# print(office_days.issubset(weekdays))
+# print(weekdays.issubset(office_days))
+
+"""
+add():
+
+If you want to add a single item to the set use the add() method.
+"""
+
+# friends = {"manthan","tanish","ayush"}
+# friends.add("swaraj")
+# print(friends)
+
+"""
+update():
+
+If you want to add more than one item, simply create another set or 
+any other iterable object(list, tuple, dictionary), and use the update() 
+method to add it into the existing set.
+"""
+
+# friends = {"manthan","tanish","ayush"}
+# friends2 = {"swaraj","suraj"}
+# friends.update(friends2)
+# print(friends)
+
+"""
+remove()/discard():
+
+We can use remove() and discard() methods to remove items form list.
+"""
+
+# youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+# youtube_ch.remove("swatcodes")
+
+'''will show an error'''
+# youtube_ch.remove("infosys") 
+'''will not'''
+# youtube_ch.discard("infosys")
+
+"""
+pop():
+This method removes the last item of the set but the catch is that we 
+don't know which item gets popped as sets are unordered. However, you 
+can access the popped item if you assign the pop() method to a variable.
+"""
+youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+item = youtube_ch.pop()
+print(youtube_ch)
+print(item)
+
+"""
+del:
+
+del is not a method, rather it is a keyword which deletes the set entirely.
+"""
+
+youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+del youtube_ch
+print(youtube_ch)
+
