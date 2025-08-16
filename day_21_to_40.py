@@ -958,8 +958,110 @@ del:
 
 del is not a method, rather it is a keyword which deletes the set entirely.
 """
+'''error'''
+# youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+# del youtube_ch
+# print(youtube_ch)
 
-youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
-del youtube_ch
-print(youtube_ch)
+"""
+clear():
 
+This method clears all items in the set and prints an empty set.
+"""
+'''empty set'''
+# youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+# youtube_ch.clear()
+# print(youtube_ch)
+
+"""
+Check if item exists:
+
+You can also check if an item exists in the set or not.
+"""
+
+# info = {"Carla", 19, False, 5.9}
+# if "Carla" in info:
+#     print("Carla is present.")
+# else:
+#     print("Carla is absent.")
+
+
+"""
+Python Dictionaries:
+
+Dictionaries are ordered collection of data items. They store multiple items in 
+a single variable. Dictionary items are key-value pairs that are separated by 
+commas and enclosed within curly brackets {}.
+"""
+
+# dic = {
+#     "name":"ayush",
+#     "age":17,
+#     "eligible": False
+# }
+# print(dic)
+# print(dic["eligible"])
+
+# dic = {
+#     101:"ayush",
+#     102:"tanish",
+#     103:"manthon"
+# }
+
+# print(dic[101])
+
+"""
+Accessing single values:
+
+Values in a dictionary can be accessed using keys. We can access dictionary 
+values by mentioning keys either in square brackets or by using get method.
+"""
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info['name'])
+# print(info.get('eligible'))
+
+"""
+Accessing multiple values:
+
+We can print all the values in the dictionary using values() method.
+"""
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.values())
+
+"""
+Accessing keys:
+
+We can print all the keys in the dictionary using keys() method.
+"""
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.keys())
+
+# for keys in info.keys():
+    # print(f"the value that corresponding to the key {keys} is {info[keys]}")
+
+"""
+Accessing key-value pairs:
+
+We can print all the key-value pairs in the dictionary using items() method
+"""
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.items())
+# for key, value in info.items():
+    # print(f"the value corresponding to key {key} is {value}")
+
+"""
+Dictionary Methods:
+
+Dictionary uses several built-in methods for manipulation.They are listed below
+"""
+
+"""
+update():
+
+The update() method updates the value of the key provided to it if the item 
+already exists in the dictionary, else it creates a new key-value pair.
+"""
