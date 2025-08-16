@@ -948,10 +948,10 @@ This method removes the last item of the set but the catch is that we
 don't know which item gets popped as sets are unordered. However, you 
 can access the popped item if you assign the pop() method to a variable.
 """
-youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
-item = youtube_ch.pop()
-print(youtube_ch)
-print(item)
+# youtube_ch = {"codewithharry", "brocode", "simplilearn", "swatcodes"}
+# item = youtube_ch.pop()
+# print(youtube_ch)
+# print(item)
 
 """
 del:
