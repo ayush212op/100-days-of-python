@@ -1065,3 +1065,65 @@ update():
 The update() method updates the value of the key provided to it if the item 
 already exists in the dictionary, else it creates a new key-value pair.
 """
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# info.update({"age":20})
+# info.update({"city":"pune"})
+# print(info)
+
+ep1 = {220:22, 221:23, 222:24}
+ep2 = {222:25, 224:26}
+ep1.update(ep2)
+print(ep1)
+
+"""
+clear():
+
+The clear() method removes all the items from the list.
+"""
+# info = {"Carla", 19, False, 5.9}
+# info.clear()
+# print(info)
+
+ep1 = {220:22, 221:23, 222:24}
+ep2 = {222:25, 224:26}
+ep1.clear()
+print(ep1)
+
+empty_dict = {}
+print(empty_dict, type(empty_dict))
+"""
+pop():
+
+The pop() method removes the key-value pair whose key is passed as a parameter.
+It also returns the value of the removed key.
+"""
+
+# friends = {"manthan":"available","tanish":"busy","ayush":"available"}
+# status = friends.pop("tanish")
+# print(friends)
+# print(status)
+
+ep1 = {220:22, 221:23, 222:24}
+ep2 = {222:25, 224:26}
+ep1.pop(220)
+print(ep1)
+
+"""popitem():
+
+The popitem() method removes the last key-value pair from the dictionary.
+It also returns the removed key-value pair as a tuple.
+"""
+
+# college = {"AISSMS":"Ayush","COEP":"Tanish","MIT":"Manthan"}
+# college.popitem()
+# print(college)
+
+"""del:
+we can also use the del keyword to remove a dictionary item.
+It removes the key-value pair whose key is passed as a parameter.
+"""
+
+# college = {"AISSMS":"Ayush","COEP":"Tanish","MIT":"Manthan"}
+# del college["COEP"]
+# print(college)
