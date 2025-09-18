@@ -1143,40 +1143,40 @@ else:
     #Statements inside else block
 """
 
-for i in range(5):
-    print(i)
-else:
-    print("Loop is ended.")
+# for i in range(5):
+#     print(i)
+# else:
+#     print("Loop is ended.")
 
 
-for i in range(5):
-    print(i)
-    if i == 3:
-        break
-else:
-    print("Loop is ended.")
+# for i in range(5):
+#     print(i)
+#     if i == 3:
+#         break
+# else:
+#     print("Loop is ended.")
 
-i = 0
-while i < 5:
-    print(i)
-    i += 1
-else:
-    print("Loop is ended.")
+# i = 0
+# while i < 5:
+#     print(i)
+#     i += 1
+# else:
+#     print("Loop is ended.")
 
-i = 0
-while i < 5:
-    print(i)
-    if i == 3:
-        break
-    i += 1 
-else:
-    print("Loop is ended.")
+# i = 0
+# while i < 5:
+#     print(i)
+#     if i == 3:
+#         break
+#     i += 1 
+# else:
+#     print("Loop is ended.")
 
-for x in range(5):
-    print ("iteration no {} in for loop".format(x+1))
-else:
-    print ("else block in loop")
-print ("Out of loop")
+# for x in range(5):
+#     print ("iteration no {} in for loop".format(x+1))
+# else:
+#     print ("else block in loop")
+# print ("Out of loop")
 
 """Exception Handling
 Exception handling is the process of responding to unwanted or unexpected events when a computer program runs. Exception handling deals with these events to avoid the program or system crashing, and without this process, exceptions would disrupt the normal operation of a program.
